@@ -154,7 +154,7 @@ def getSoundSample(store_directory, sample_name):
         one_sound_sample: the segmented sound sample as numpy array
     '''
     one_sound_sample = wavfile.read(
-        "./{}/{}.wav".format(store_directory, sample_name))[1]
+        "./{}/{}".format(store_directory, sample_name))[1]
     one_sound_sample = one_sound_sample.astype("float32")
     one_sound_sample = (one_sound_sample/128)-0.5
     one_sound_sample = np.array_split(one_sound_sample, time_steps)
