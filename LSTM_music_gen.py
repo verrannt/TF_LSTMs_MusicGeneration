@@ -285,6 +285,7 @@ else: # if not training phase but generation
             network_prediction = session.run(
                 predicted,
                 feed_dict = {x: sound_sample})
+            network_prediction = invFourierTransform(network_prediction)
             working_sequence = working_sequence[1:]
             working_sequence.append(network_prediction[0])
             generated_sequence.append(network_prediction[0])
