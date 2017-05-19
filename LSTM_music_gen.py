@@ -3,9 +3,7 @@
 Python implementation of a recurrent neural network for generation of music
 sequences using LSTM cells in Tensorflow.
 
-@authors: Leonhard von Heinz, Leon Schmid, Pascal Schröder
-@date: 28.02.2017
-@version: 0.8
+Date: 28.02.2017
 
 Notes:
 Since we use parts of the non-stable tensorflow.contrib library future
