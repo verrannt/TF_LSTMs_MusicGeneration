@@ -1,4 +1,4 @@
-# Music Generation With LSTM
+# Music Generation With LSTMs
 Recurrent neural network for music sequence generation using LSTM cells. Implemented in python using the Tensorflow library.
 
-Note: Early version. Is not training correctly.
+Note: __Early version__. Is not training correctly.
